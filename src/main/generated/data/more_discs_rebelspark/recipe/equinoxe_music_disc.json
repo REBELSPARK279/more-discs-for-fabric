@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "more_discs_rebelspark:empty_disc_core",
+    "D": "minecraft:glowstone_dust",
+    "E": "minecraft:ender_pearl",
+    "G": "minecraft:gold_nugget",
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:phantom_membrane",
+    "S": "minecraft:glowstone"
+  },
+  "pattern": [
+    "SDI",
+    "DCP",
+    "GPE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:equinoxe_music_disc"
+  }
+}

@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DOG_DISC_FRAGMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOOG_CITY2_DISC_FRAGMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MINECRAFT_DISC_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THE_END_DISC_FRAGMENT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMPTY_DISC_CORE, Models.GENERATED);
 
@@ -41,7 +42,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CASTLEMANIA2_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHRIS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLARK_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CONCRETE_HALLS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DANNY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEAD_VOXEL_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DEATH_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DOG_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DOOR_MUSIC_DISC, Models.GENERATED);
@@ -49,6 +52,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DRY_HANDS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EXCUSE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EXECUTIONER_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EQUINOXE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLAKE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLOATING_TREES_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAGGSTROM_MUSIC_DISC, Models.GENERATED);
@@ -64,9 +68,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MOOG_CITY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOOG_CITY2_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUTATION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OXYGENE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEDEN_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.TASWELL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.THE_END_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.WET_HANDS_MUSIC_DISC, Models.GENERATED);
     }
 }

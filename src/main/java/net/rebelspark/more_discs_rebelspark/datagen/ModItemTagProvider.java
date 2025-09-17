@@ -16,10 +16,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+        valueLookupBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
 
                 //COMMON
 
+                .add(ModItems.DEAD_VOXEL_MUSIC_DISC)
                 .add(ModItems.DRY_HANDS_MUSIC_DISC)
                 .add(ModItems.EXCUSE_MUSIC_DISC)
                 .add(ModItems.FLOATING_TREES_MUSIC_DISC)
@@ -31,7 +32,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
                 //UNCOMMON
 
-                .add(ModItems.ALPHA_MUSIC_DISC)
                 .add(ModItems.BLIND_SPOTS_MUSIC_DISC)
                 .add(ModItems.DOOR_MUSIC_DISC)
                 .add(ModItems.LIVING_MICE_MUSIC_DISC)

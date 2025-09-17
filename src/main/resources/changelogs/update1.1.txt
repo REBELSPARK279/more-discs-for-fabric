@@ -1,9 +1,52 @@
-Update 1.1 for fabric 1.21.5 changelog
+Update 1.1 for fabric 1.21.5 and 1.21.8 changelog
 
-Added 0 discs
+MINECRAFT VERISION: 1.21.5 --> 1.21.8
+(1.21.5 will continue to be supported as of now)
+
+
+--NEW DISCS--
+
+Added 4 discs
+
+COMMON DISCS
+DEAD VOXEL -C418
+
+UNCOMMON DISCS
+EQUINOXE -C418
+
+RARE DISCS
+OXYGENE -C418
+CONCRETE HALLS -C418
+
+LEGENDARY DISCS
+The End -C418 (including disc fragments)
+
 
 --BUGFIXES--
 
 Fixed Door disc not being traded at disc jockey level 2
 Fixed A Familiar Room disc not being villager tradeable
 Fixed Excuse disc not being traded by wandering trader and villager at levels 1 and 2
+Fixed Aria Math Music Disc being offered by wandering trader for uncommon disc rarity price
+
+
+--RARITY CHANGES--
+
+Mice on Venus: Epic --> Legendary
+    Texture and drop chances were also altered to account for this change, as well as removing the villager trade offer
+
+Alpha: Uncommon --> Epic
+    Texture, villager prices, and drop chances were also altered to account for this change, as well as removing the crafting recipe and creeper music drop
+
+
+--MISC CHANGES--
+
+Alpha music disc now plays the entirety of the song Alpha - C418 instead of just a small portion of it.
+
+
+--SNEAK PEAKS FOR NEXT UPDATE--
+
+Update 1.2 will probably reduce the bloat of the mod by either finding a way to play songs straight from the game files or adding a version to the modpage with much lower quality songs.
+Droopy?
+Loot table rebalancing
+Merchant trade rebalancing (again)

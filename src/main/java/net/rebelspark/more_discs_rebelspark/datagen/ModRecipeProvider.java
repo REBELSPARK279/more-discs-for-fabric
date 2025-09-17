@@ -32,18 +32,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.MISC, ModItems.ALPHA_MUSIC_DISC)
-                        .pattern("FSF")
-                        .pattern("GCL")
-                        .pattern("FFF")
-                        .input('F', Items.FLINT)
-                        .input('C', ModItems.EMPTY_DISC_CORE)
-                        .input('S', Items.COBBLESTONE)
-                        .input('G', Items.GRASS_BLOCK)
-                        .input('L', Items.OAK_LOG)
-                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
-                        .offerTo(exporter);
-
                 createShaped(RecipeCategory.MISC, ModItems.BLIND_SPOTS_MUSIC_DISC)
                         .pattern("FFF")
                         .pattern("ICI")
@@ -82,6 +70,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('F', Items.FLINT)
                         .input('C', ModItems.EMPTY_DISC_CORE)
                         .input('S', Items.SAND)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.EQUINOXE_MUSIC_DISC)
+                        .pattern("SDI")
+                        .pattern("DCP")
+                        .pattern("GPE")
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .input('S', Items.GLOWSTONE)
+                        .input('D', Items.GLOWSTONE_DUST)
+                        .input('I', Items.IRON_NUGGET)
+                        .input('G', Items.GOLD_NUGGET)
+                        .input('P', Items.PHANTOM_MEMBRANE)
+                        .input('E', Items.ENDER_PEARL)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
 
@@ -216,6 +218,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("FCF")
                         .pattern("FFF")
                         .input('F', ModItems.MOOG_CITY2_DISC_FRAGMENT)
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.THE_END_MUSIC_DISC)
+                        .pattern("FFF")
+                        .pattern("FCF")
+                        .pattern("FFF")
+                        .input('F', ModItems.THE_END_DISC_FRAGMENT)
                         .input('C', ModItems.EMPTY_DISC_CORE)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);

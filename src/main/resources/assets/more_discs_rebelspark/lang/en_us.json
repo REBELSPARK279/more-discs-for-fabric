@@ -36,8 +36,14 @@
   "item.more_discs_rebelspark.clark_music_disc": "Music Disc",
   "item.more_discs_rebelspark.clark_music_disc.desc": "C418 - Clark",
 
+  "item.more_discs_rebelspark.concrete_halls_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.concrete_halls_music_disc.desc": "C418 - Concrete Halls",
+
   "item.more_discs_rebelspark.danny_music_disc": "Music Disc",
   "item.more_discs_rebelspark.danny_music_disc.desc": "C418 - Danny",
+
+  "item.more_discs_rebelspark.dead_voxel_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.dead_voxel_music_disc.desc": "C418 - Dead Voxel",
 
   "item.more_discs_rebelspark.death_music_disc": "Music Disc",
   "item.more_discs_rebelspark.death_music_disc.desc": "C418 - Death",
@@ -59,6 +65,9 @@
 
   "item.more_discs_rebelspark.executioner_music_disc": "Music Disc",
   "item.more_discs_rebelspark.executioner_music_disc.desc": "DJ FKU - Executioner",
+
+  "item.more_discs_rebelspark.equinoxe_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.equinoxe_music_disc.desc": "C418 - Équinoxe",
 
   "item.more_discs_rebelspark.flake_music_disc": "Music Disc",
   "item.more_discs_rebelspark.flake_music_disc.desc": "C418 - Flake",
@@ -105,6 +114,9 @@
   "item.more_discs_rebelspark.mutation_music_disc": "Music Disc",
   "item.more_discs_rebelspark.mutation_music_disc.desc": "C418 - Mutation",
 
+  "item.more_discs_rebelspark.oxygene_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.oxygene_music_disc.desc": "C418 - Oxygène",
+
   "item.more_discs_rebelspark.subwoofer_lullaby_music_disc": "Music Disc",
   "item.more_discs_rebelspark.subwoofer_lullaby_music_disc.desc": "C418 - Subwoofer Lullaby",
 
@@ -114,17 +126,18 @@
   "item.more_discs_rebelspark.taswell_music_disc": "Music Disc",
   "item.more_discs_rebelspark.taswell_music_disc.desc": "C418 - Taswell",
 
+  "item.more_discs_rebelspark.the_end_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.the_end_music_disc.desc": "C418 - The End",
+
   "item.more_discs_rebelspark.wet_hands_music_disc": "Music Disc",
   "item.more_discs_rebelspark.wet_hands_music_disc.desc": "C418 - Wet Hands",
 
-  "item.more_discs_rebelspark.danny_disc_core": "Danny Disc Core",
-  "item.more_discs_rebelspark.dog_disc_core": "Dog Disc Core",
-  "item.more_discs_rebelspark.dreiton_disc_core": "Dreiton Disc Core",
   "item.more_discs_rebelspark.empty_disc_core": "Empty Disc Core",
 
   "item.more_discs_rebelspark.dog_disc_fragment": "Dog Disc Fragment",
   "item.more_discs_rebelspark.moog_city2_disc_fragment": "Moog City 2 Disc Fragment",
   "item.more_discs_rebelspark.minecraft_disc_fragment": "Minecraft Disc Fragment",
+  "item.more_discs_rebelspark.the_end_disc_fragment": "The End Disc Fragment",
 
   "block.more_discs_rebelspark.white_led_dance_floor": "White LED Dance Floor",
   "block.more_discs_rebelspark.light_grey_dance_floor": "Light Gray Dance Floor",
@@ -159,7 +172,6 @@
 
   "tooltip.more_discs_rebelspark.colour_ex": "§00§11§22§33§44§55§66§77§88§99§aa§bb§cc§dd§ee§0§khi§r<k§lhi§r§mhi§r§nhi§r§ohi§rhi",
 
-  "tooltip.more_discs_rebelspark.disc_core_normal": "§6§lCombine with 8 flint to craft a disc!",
   "tooltip.more_discs_rebelspark.common_disc": "§7Common Disc",
   "tooltip.more_discs_rebelspark.uncommon_disc": "§2Uncommon Disc",
   "tooltip.more_discs_rebelspark.rare_disc": "§9§lRare Disc",

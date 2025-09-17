@@ -3,6 +3,6 @@
   "description": {
     "translate": "item.more_discs_rebelspark.alpha_music_disc.desc"
   },
-  "length_in_seconds": 151.0,
+  "length_in_seconds": 604.0,
   "sound_event": "more_discs_rebelspark:alpha"
 }

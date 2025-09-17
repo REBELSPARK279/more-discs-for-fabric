@@ -62,9 +62,17 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> CLARK_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "clark"));
 
+    public static final SoundEvent CONCRETE_HALLS = registerSoundEvent("concrete_halls");
+    public static final RegistryKey<JukeboxSong> CONCRETE_HALLS_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "concrete_halls"));
+
     public static final SoundEvent DANNY = registerSoundEvent("danny");
     public static final RegistryKey<JukeboxSong> DANNY_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "danny"));
+
+    public static final SoundEvent DEAD_VOXEL = registerSoundEvent("dead_voxel");
+    public static final RegistryKey<JukeboxSong> DEAD_VOXEL_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "dead_voxel"));
 
     public static final SoundEvent DEATH = registerSoundEvent("death");
     public static final RegistryKey<JukeboxSong> DEATH_KEY =
@@ -93,6 +101,10 @@ public class ModSounds {
     public static final SoundEvent EXECUTIONER = registerSoundEvent("executioner");
     public static final RegistryKey<JukeboxSong> EXECUTIONER_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "executioner"));
+
+    public static final SoundEvent EQUINOXE = registerSoundEvent("equinoxe");
+    public static final RegistryKey<JukeboxSong> EQUINOXE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "equinoxe"));
 
     public static final SoundEvent FLAKE = registerSoundEvent("flake");
     public static final RegistryKey<JukeboxSong> FLAKE_KEY =
@@ -154,6 +166,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> MUTATION_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "mutation"));
 
+    public static final SoundEvent OXYGENE = registerSoundEvent("oxygene");
+    public static final RegistryKey<JukeboxSong> OXYGENE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "oxygene"));
+
     public static final SoundEvent SUBWOOFER_LULLABY = registerSoundEvent("subwoofer_lullaby");
     public static final RegistryKey<JukeboxSong> SUBWOOFER_LULLABY_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "subwoofer_lullaby"));
@@ -165,6 +181,10 @@ public class ModSounds {
     public static final SoundEvent TASWELL = registerSoundEvent("taswell");
     public static final RegistryKey<JukeboxSong> TASWELL_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "taswell"));
+
+    public static final SoundEvent THE_END = registerSoundEvent("the_end");
+    public static final RegistryKey<JukeboxSong> THE_END_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "the_end"));
 
     public static final SoundEvent WET_HANDS = registerSoundEvent("wet_hands");
     public static final RegistryKey<JukeboxSong> WET_HANDS_KEY =

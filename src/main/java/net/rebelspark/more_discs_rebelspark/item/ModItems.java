@@ -24,6 +24,8 @@ public class ModItems {
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "moog_city2_disc_fragment"))).maxCount(8)));
     public static final Item MINECRAFT_DISC_FRAGMENT = registerItem("minecraft_disc_fragment", new Item(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "minecraft_disc_fragment"))).maxCount(8)));
+    public static final Item THE_END_DISC_FRAGMENT = registerItem("the_end_disc_fragment", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID, "the_end_disc_fragment"))).maxCount(8)));
 
    //DISC CORE
 
@@ -45,7 +47,7 @@ public class ModItems {
                 @Override public void appendTooltip(ItemStack stack, TooltipContext context,
                                                     TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
-                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));}});
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.epic_disc"));}});
 
     public static final Item ARIA_MATH_MUSIC_DISC = registerItem("aria_math_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
@@ -127,6 +129,14 @@ public class ModItems {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.rare_disc"));}});
 
+    public static final Item CONCRETE_HALLS_MUSIC_DISC = registerItem("concrete_halls_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "concrete_halls_music_disc"))).jukeboxPlayable(ModSounds.CONCRETE_HALLS_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.rare_disc"));}});
+
     public static final Item DANNY_MUSIC_DISC = registerItem("danny_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
                     "danny_music_disc"))).jukeboxPlayable(ModSounds.DANNY_KEY).maxCount(1)) {
@@ -134,6 +144,14 @@ public class ModItems {
                                                     TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.legendary_disc"));}});
+
+    public static final Item DEAD_VOXEL_MUSIC_DISC = registerItem("dead_voxel_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "dead_voxel_music_disc"))).jukeboxPlayable(ModSounds.DEAD_VOXEL_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.common_disc"));}});
 
     public static final Item DEATH_MUSIC_DISC = registerItem("death_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
@@ -190,6 +208,14 @@ public class ModItems {
                                                     TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.vill_disc"));}});
+
+    public static final Item EQUINOXE_MUSIC_DISC = registerItem("equinoxe_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "equinoxe_music_disc"))).jukeboxPlayable(ModSounds.EQUINOXE_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));}});
 
     public static final Item FLAKE_MUSIC_DISC = registerItem("flake_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
@@ -278,7 +304,7 @@ public class ModItems {
                 @Override public void appendTooltip(ItemStack stack, TooltipContext context,
                                                     TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
-                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.epic_disc"));}});
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.legendary_disc"));}});
 
     public static final Item MINECRAFT_MUSIC_DISC = registerItem("minecraft_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
@@ -312,6 +338,14 @@ public class ModItems {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.uncommon_disc"));}});
 
+    public static final Item OXYGENE_MUSIC_DISC = registerItem("oxygene_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "oxygene_music_disc"))).jukeboxPlayable(ModSounds.OXYGENE_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.rare_disc"));}});
+
     public static final Item SUBWOOFER_LULLABY_MUSIC_DISC = registerItem("subwoofer_lullaby_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
                     "subwoofer_lullaby_music_disc"))).jukeboxPlayable(ModSounds.SUBWOOFER_LULLABY_KEY).maxCount(1)) {
@@ -331,6 +365,14 @@ public class ModItems {
     public static final Item TASWELL_MUSIC_DISC = registerItem("taswell_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
                     "taswell_music_disc"))).jukeboxPlayable(ModSounds.TASWELL_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.legendary_disc"));}});
+
+    public static final Item THE_END_MUSIC_DISC = registerItem("the_end_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "the_end_music_disc"))).jukeboxPlayable(ModSounds.THE_END_KEY).maxCount(1)) {
                 @Override public void appendTooltip(ItemStack stack, TooltipContext context,
                                                     TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);

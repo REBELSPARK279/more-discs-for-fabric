@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "more_discs_rebelspark:empty_disc_core",
+    "F": "more_discs_rebelspark:the_end_disc_fragment"
+  },
+  "pattern": [
+    "FFF",
+    "FCF",
+    "FFF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:the_end_music_disc"
+  }
+}

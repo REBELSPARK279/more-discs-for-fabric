@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more_discs_rebelspark:alpha_music_disc"
+        "recipe": "more_discs_rebelspark:equinoxe_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "more_discs_rebelspark:alpha_music_disc"
+      "more_discs_rebelspark:equinoxe_music_disc"
     ]
   }
 }

@@ -107,10 +107,28 @@
     ]
   },
 
+  "concrete_halls": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:concrete_halls",
+        "stream": true
+      }
+    ]
+  },
+
   "danny": {
     "sounds": [
       {
         "name": "more_discs_rebelspark:danny",
+        "stream": true
+      }
+    ]
+  },
+
+  "dead_voxel": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:dead_voxel",
         "stream": true
       }
     ]
@@ -174,6 +192,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:executioner",
+        "stream": true
+      }
+    ]
+  },
+
+  "equinoxe": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:equinoxe",
         "stream": true
       }
     ]
@@ -314,6 +341,15 @@
     ]
   },
 
+  "oxygene": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:oxygene",
+        "stream": true
+      }
+    ]
+  },
+
   "subwoofer_lullaby": {
     "sounds": [
       {
@@ -336,6 +372,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:taswell",
+        "stream": true
+      }
+    ]
+  },
+
+  "the_end": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:the_end",
         "stream": true
       }
     ]
