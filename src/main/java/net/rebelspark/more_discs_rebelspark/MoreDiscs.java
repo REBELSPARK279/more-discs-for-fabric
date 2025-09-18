@@ -205,6 +205,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
+					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare3price),
 					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
@@ -244,6 +247,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 24, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
+					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 24, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare4price),
 					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 24, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
@@ -269,6 +275,9 @@ public class MoreDiscs implements ModInitializer {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 30, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare5price),
+					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 30, 0.07f));
@@ -350,6 +359,9 @@ public class MoreDiscs implements ModInitializer {
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "aria_math"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 18),
 					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 3, 4, 0.25f));
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "oxygene"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 18),
+					new ItemStack(ModItems.OXYGENE_MUSIC_DISC, 1), 3, 4, 0.25f));
 
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "castlemania2"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 52),

@@ -46,7 +46,6 @@ Alpha music disc now plays the entirety of the song Alpha - C418 instead of just
 
 --SNEAK PEAKS FOR NEXT UPDATE--
 
-Update 1.2 will probably reduce the bloat of the mod by either finding a way to play songs straight from the game files or adding a version to the modpage with much lower quality songs.
 Droopy?
 Loot table rebalancing
 Merchant trade rebalancing (again)

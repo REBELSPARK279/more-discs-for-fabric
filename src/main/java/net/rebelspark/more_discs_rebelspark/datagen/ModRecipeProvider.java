@@ -42,6 +42,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.MISC, ModItems.DEAD_VOXEL_MUSIC_DISC)
+                        .pattern("RLG")
+                        .pattern("LCL")
+                        .pattern("RLG")
+                        .input('R', Items.REDSTONE)
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .input('G', Items.GUNPOWDER)
+                        .input('L', Items.REDSTONE_LAMP)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
                 createShaped(RecipeCategory.MISC, ModItems.DOOR_MUSIC_DISC)
                         .pattern("FDF")
                         .pattern("GCD")
