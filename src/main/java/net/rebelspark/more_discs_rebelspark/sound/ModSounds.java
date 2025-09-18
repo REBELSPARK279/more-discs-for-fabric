@@ -30,6 +30,10 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> BACK_ON_DASH_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "back_on_dash"));
 
+    public static final SoundEvent BALLAD_OF_THE_CATS = registerSoundEvent("ballad_of_the_cats");
+    public static final RegistryKey<JukeboxSong> BALLAD_OF_THE_CATS_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "ballad_of_the_cats"));
+
     public static final SoundEvent BEGINNING = registerSoundEvent("beginning");
     public static final RegistryKey<JukeboxSong> BEGINNING_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(MoreDiscs.MOD_ID, "beginning"));

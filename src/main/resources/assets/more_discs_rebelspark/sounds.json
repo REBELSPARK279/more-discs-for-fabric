@@ -35,6 +35,15 @@
     ]
   },
 
+  "ballad_of_the_cats": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:ballad_of_the_cats",
+        "stream": true
+      }
+    ]
+  },
+
   "beginning": {
     "sounds": [
       {

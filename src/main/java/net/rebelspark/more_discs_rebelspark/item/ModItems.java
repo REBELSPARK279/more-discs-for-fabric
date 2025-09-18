@@ -65,6 +65,14 @@ public class ModItems {
                     super.appendTooltip(stack, context, displayComponent, textConsumer, type);
                     textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.vill_disc"));}});
 
+    public static final Item BALLAD_OF_THE_CATS_MUSIC_DISC = registerItem("ballad_of_the_cats_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
+                    "ballad_of_the_cats_music_disc"))).jukeboxPlayable(ModSounds.BALLAD_OF_THE_CATS_KEY).maxCount(1)) {
+                @Override public void appendTooltip(ItemStack stack, TooltipContext context,
+                                                    TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+                    super.appendTooltip(stack, context, displayComponent, textConsumer, type);
+                    textConsumer.accept(Text.translatable("tooltip.more_discs_rebelspark.epic_disc"));}});
+
     public static final Item BEGINNING_MUSIC_DISC = registerItem("beginning_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MoreDiscs.MOD_ID,
                     "beginning_music_disc"))).jukeboxPlayable(ModSounds.BEGINNING_KEY).maxCount(1)) {

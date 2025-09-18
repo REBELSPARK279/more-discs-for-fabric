@@ -31,22 +31,22 @@ public class MoreDiscs implements ModInitializer {
 		ModGlobalLootTableModifiers.modifyLootTables();
 		ModVillagers.registerVillagers();
 
-		var common1price = 20;
-		var common2price = 18;
-		var common3price = 16;
+		var common1price = 10;
+		var common2price = 9;
+		var common3price = 8;
 
-		var uncommon2price = 25;
-		var uncommon3price = 22;
-		var uncommon4price = 18;
+		var uncommon2price = 13;
+		var uncommon3price = 11;
+		var uncommon4price = 9;
 
-		var rare3price = 30;
-		var rare4price = 26;
-		var rare5price = 21;
+		var rare3price = 16;
+		var rare4price = 14;
+		var rare5price = 11;
 
-		var villagerExclusive4price = 48;
-		var villagerExclusive5price = 40;
+		var villagerExclusive4price = 28;
+		var villagerExclusive5price = 24;
 
-		var epic5price = 52;
+		var epic5price = 32;
 
 		//TRADES
 		//1
@@ -205,6 +205,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
+					new ItemStack(ModItems.CLARK_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare3price),
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
@@ -247,6 +250,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 24, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
+					new ItemStack(ModItems.CLARK_MUSIC_DISC, 1), 10, 24, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare4price),
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 24, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
@@ -277,6 +283,9 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CHRIS_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
+					new ItemStack(ModItems.CLARK_MUSIC_DISC, 1), 10, 30, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
@@ -298,10 +307,13 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.EXECUTIONER_MUSIC_DISC, 1), 10, 35, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, epic5price),
+					new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC, 1), 10, 40, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, epic5price),
 					new ItemStack(ModItems.ALPHA_MUSIC_DISC, 1), 10, 40, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, epic5price),
-					new ItemStack(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC, 1), 10, 40, 0.07f));
+					new ItemStack(ModItems.BALLAD_OF_THE_CATS_MUSIC_DISC, 1), 10, 40, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, epic5price),
 					new ItemStack(ModItems.BIOME_FEST_MUSIC_DISC, 1), 10, 40, 0.07f));
@@ -315,6 +327,9 @@ public class MoreDiscs implements ModInitializer {
 					new TradedItem(Items.EMERALD, 2),
 					new ItemStack(Items.FLINT, 8), 8, 4, 0.15f));
 
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "dead_voxel"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 10),
+					new ItemStack(ModItems.DEAD_VOXEL_MUSIC_DISC, 1), 3, 4, 0.25f));
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "dreiton"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 10),
 					new ItemStack(ModItems.DREITON_MUSIC_DISC, 1), 3, 4, 0.25f));
@@ -340,12 +355,15 @@ public class MoreDiscs implements ModInitializer {
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "blind_spots"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 3, 4, 0.25f));
-			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "excuse"), (entity, random) -> new TradeOffer(
-					new TradedItem(Items.EMERALD, 14),
-					new ItemStack(ModItems.EXCUSE_MUSIC_DISC, 1), 3, 4, 0.25f));
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "door"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.DOOR_MUSIC_DISC, 1), 3,4,0.25f));
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "excuse"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 14),
+					new ItemStack(ModItems.EXCUSE_MUSIC_DISC, 1), 3, 4, 0.25f));
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "equinoxe"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 14),
+					new ItemStack(ModItems.EQUINOXE_MUSIC_DISC, 1), 3, 4, 0.25f));
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "living_mice"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.LIVING_MICE_MUSIC_DISC, 1), 3, 4, 0.25f));

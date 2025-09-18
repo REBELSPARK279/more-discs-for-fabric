@@ -1,12 +1,12 @@
-Update 1.1 for fabric 1.21.5 and 1.21.8 changelog
+Update 1.1.0 for fabric 1.21.5+ changelog
 
-MINECRAFT VERISION: 1.21.5 --> 1.21.8
-(1.21.5 will continue to be supported as of now)
+MINECRAFT VERISION SUPPORT: 1.21.5 --> 1.21.8
+ALL VERSIONS 1.21.5+ SHOULD WORK
 
 
 --NEW DISCS--
 
-Added 4 discs
+Added 6 discs
 
 COMMON DISCS
 DEAD VOXEL -C418
@@ -18,6 +18,9 @@ RARE DISCS
 OXYGENE -C418
 CONCRETE HALLS -C418
 
+EPIC DISCS
+Ballad of the Cats -C418
+
 LEGENDARY DISCS
 The End -C418 (including disc fragments)
 
@@ -26,8 +29,9 @@ The End -C418 (including disc fragments)
 
 Fixed Door disc not being traded at disc jockey level 2
 Fixed A Familiar Room disc not being villager tradeable
+Fixed Clark disc not bring villager tradeable
 Fixed Excuse disc not being traded by wandering trader and villager at levels 1 and 2
-Fixed Aria Math Music Disc being offered by wandering trader for uncommon disc rarity price
+Fixed Aria Math Music Disc being offered by wandering trader for uncommon disc rarity price instead of rare disc price
 
 
 --RARITY CHANGES--
@@ -42,10 +46,12 @@ Alpha: Uncommon --> Epic
 --MISC CHANGES--
 
 Alpha music disc now plays the entirety of the song Alpha - C418 instead of just a small portion of it.
+Small tweaks to drop chances of some discs.
+Cut all villager prices in (around) half
 
 
 --SNEAK PEAKS FOR NEXT UPDATE--
 
-Droopy?
+Droopy likes?
 Loot table rebalancing
-Merchant trade rebalancing (again)
+Bug squashing

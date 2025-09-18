@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ALPHA_MUSIC_DISC);
                         entries.add(ModItems.ARIA_MATH_MUSIC_DISC);
                         entries.add(ModItems.BACK_ON_DASH_MUSIC_DISC);
+                        entries.add(ModItems.BALLAD_OF_THE_CATS_MUSIC_DISC);
                         entries.add(ModItems.BEGINNING_MUSIC_DISC);
                         entries.add(ModItems.BEGINNING2_MUSIC_DISC);
                         entries.add(ModItems.BIOME_FEST_MUSIC_DISC);
