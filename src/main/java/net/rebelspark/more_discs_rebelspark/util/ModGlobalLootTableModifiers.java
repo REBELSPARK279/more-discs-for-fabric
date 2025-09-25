@@ -79,25 +79,25 @@ public class ModGlobalLootTableModifiers {
             //ALPHA
 
             if(ZOMBIE.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.02f))
+                    .conditionally(RandomChanceLootCondition.builder(0.005f))
                     .with(ItemEntry.builder(ModItems.ALPHA_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(CREEPER.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.02f))
+                    .conditionally(RandomChanceLootCondition.builder(0.005f))
                     .with(ItemEntry.builder(ModItems.ALPHA_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(SKELETON.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.02f))
+                    .conditionally(RandomChanceLootCondition.builder(0.005f))
                     .with(ItemEntry.builder(ModItems.ALPHA_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }
 
             if(SPIDER.equals(key.getValue())) { LootPool.Builder poolBuilder = LootPool.builder() .rolls(ConstantLootNumberProvider.create(1))
-                    .conditionally(RandomChanceLootCondition.builder(0.02f))
+                    .conditionally(RandomChanceLootCondition.builder(0.005f))
                     .with(ItemEntry.builder(ModItems.ALPHA_MUSIC_DISC))
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build()); tableBuilder.pool(poolBuilder.build());
             }

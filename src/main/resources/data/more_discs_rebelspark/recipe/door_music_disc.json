@@ -3,14 +3,14 @@
   "category": "misc",
   "key": {
     "C": "more_discs_rebelspark:empty_disc_core",
-    "G": "minecraft:gunpowder",
-    "L": "minecraft:redstone_lamp",
-    "R": "minecraft:redstone"
+    "D": "minecraft:dark_oak_door",
+    "G": "minecraft:gold_nugget",
+    "F": "minecraft:flint"
   },
   "pattern": [
-    "RLG",
-    "LCL",
-    "RLG"
+    "FDF",
+    "GCD",
+    "FDF"
   ],
   "result": {
     "count": 1,

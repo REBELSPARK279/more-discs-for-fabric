@@ -52,7 +52,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('L', Items.REDSTONE_LAMP)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
-
+/*
+ISOLATE
                 createShaped(RecipeCategory.MISC, ModItems.DOOR_MUSIC_DISC)
                         .pattern("FDF")
                         .pattern("GCD")
@@ -63,7 +64,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('D', Items.DARK_OAK_DOOR)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
-
+*/
                 createShaped(RecipeCategory.MISC, ModItems.DREITON_MUSIC_DISC)
                         .pattern("FNF")
                         .pattern("NCN")
