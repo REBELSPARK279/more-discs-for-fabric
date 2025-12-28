@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_5"
+    },
+    "title": "Good as New",
+    "description": "Craft a music disc from disc fragments",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/disc_fragment",
+  "criteria": {
+    "5_music_disc": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:music_disc_5",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:disc_fragment_5"
+            ]
+          }
+        ]
+      }
+    },
+    "dog_music_disc": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "more_discs_rebelspark:dog_music_disc",
+        "ingredients": [
+          {
+            "items": [
+              "more_discs_rebelspark:dog_disc_fragment"
+            ]
+          }
+        ]
+      }
+    },
+    "minecraft_music_disc": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "more_discs_rebelspark:minecraft_music_disc",
+        "ingredients": [
+          {
+            "items": [
+              "more_discs_rebelspark:minecraft_disc_fragment"
+            ]
+          }
+        ]
+      }
+    },
+    "moog_city2_music_disc": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "more_discs_rebelspark:moog_city2_music_disc",
+        "ingredients": [
+          {
+            "items": [
+              "more_discs_rebelspark:moog_city2_disc_fragment"
+            ]
+          }
+        ]
+      }
+    },
+    "the_end_music_disc": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "more_discs_rebelspark:the_end_music_disc",
+        "ingredients": [
+          {
+            "items": [
+              "more_discs_rebelspark:the_end_disc_fragment"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "5_music_disc",
+      "dog_music_disc",
+      "minecraft_music_disc",
+      "moog_city2_music_disc",
+      "the_end_music_disc"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

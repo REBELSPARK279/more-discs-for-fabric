@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:rare_scroller"
+    },
+    "title": "Rare Repository",
+    "description": "Get every rare disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/rare",
+  "criteria": {
+    "rare":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "more_discs_rebelspark:aria_math_music_disc"},
+          {"items": "more_discs_rebelspark:beginning2_music_disc"},
+          {"items": "more_discs_rebelspark:chris_music_disc"},
+          {"items": "more_discs_rebelspark:clark_music_disc"},
+          {"items": "more_discs_rebelspark:concrete_halls_music_disc"},
+          {"items": "more_discs_rebelspark:flake_music_disc"},
+          {"items": "more_discs_rebelspark:oxygene_music_disc"},
+          {"items": "more_discs_rebelspark:stand_tall_music_disc"},
+          {"items": "more_discs_rebelspark:subwoofer_lullaby_music_disc"},
+          {"items": "more_discs_rebelspark:wet_hands_music_disc"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rare"
+    ]
+  ]
+}

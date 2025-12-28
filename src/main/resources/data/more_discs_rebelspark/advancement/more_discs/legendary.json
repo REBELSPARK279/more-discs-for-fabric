@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:dog_music_disc"
+    },
+    "title": "Legendary Lyrics",
+    "description": "Discover a legendary disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "danny_music_disc":               { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:danny_music_disc" } ] } },
+    "dog_music_disc":                 { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:dog_music_disc" } ] } },
+    "infinite_amethyst_music_disc": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": "more_discs_rebelspark:infinite_amethyst_music_disc"}]}},
+    "labyrinthine_music_disc":                 { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:labyrinthine_music_disc" } ] } },
+    "left_to_bloom_music_disc":                 { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:left_to_bloom_music_disc" } ] } },
+    "mice_on_venus_music_disc":       { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:mice_on_venus_music_disc" } ] } },
+    "minecraft_music_disc":           { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:minecraft_music_disc" } ] } },
+    "moog_city2_music_disc":          { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:moog_city2_music_disc" } ] } },
+    "taswell_music_disc":              { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:taswell_music_disc" } ] } },
+    "the_end_music_disc":              { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:the_end_music_disc" } ] } }
+    },
+  "requirements": [
+    [
+      "danny_music_disc",
+      "dog_music_disc",
+      "infinite_amethyst_music_disc",
+      "labyrinthine_music_disc",
+      "left_to_bloom_music_disc",
+      "mice_on_venus_music_disc",
+      "minecraft_music_disc",
+      "moog_city2_music_disc",
+      "taswell_music_disc",
+      "the_end_music_disc"
+    ]
+  ]
+}

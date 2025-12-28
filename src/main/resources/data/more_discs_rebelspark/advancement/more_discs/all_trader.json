@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:trader_scroller"
+    },
+    "title": "Dedicated Follower",
+    "description": "Buy every trader exclusive music disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/trader_exclusive",
+  "criteria": {
+    "all_trader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "more_discs_rebelspark:back_on_dash_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:beginning_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:castlemania_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:castlemania2_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:death_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:executioner_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:hardcoreminecraft_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:invincible_music_disc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_trader"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:chris_music_disc"
+    },
+    "title": "Rare Records",
+    "description": "Discover a rare disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "aria_math_music_disc":{ "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:aria_math_music_disc" } ] } },
+    "beginning2_music_disc":{ "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:beginning2_music_disc" } ] } },
+    "chris_music_disc":               { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:chris_music_disc" } ] } },
+    "clark_music_disc":               { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:clark_music_disc" } ] } },
+    "concrete_halls_music_disc":      { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:concrete_halls_music_disc" } ] } },
+    "flake_music_disc":               { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:flake_music_disc" } ] } },
+    "oxygene_music_disc":              { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:oxygene_music_disc" } ] } },
+    "stand_tall_music_disc":              { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:stand_tall_music_disc" } ] } },
+    "subwoofer_lullaby_music_disc":   { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:subwoofer_lullaby_music_disc" } ] } },
+    "wet_hands_music_disc":              { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:wet_hands_music_disc" } ] } }
+  },
+  "requirements": [
+    [
+      "aria_math_music_disc",
+      "beginning2_music_disc",
+      "chris_music_disc",
+      "clark_music_disc",
+      "concrete_halls_music_disc",
+      "flake_music_disc",
+      "oxygene_music_disc",
+      "stand_tall_music_disc",
+      "subwoofer_lullaby_music_disc",
+      "wet_hands_music_disc"
+    ]
+  ]
+}

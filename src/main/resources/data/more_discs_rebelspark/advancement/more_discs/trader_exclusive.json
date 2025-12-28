@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:castlemania2_music_disc"
+    },
+    "title": "Exclusive Tunes",
+    "description": "Get a trader exclusive music disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/trader",
+  "criteria": {
+      "back_on_dash_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:back_on_dash_music_disc"
+            }
+          ]
+        }
+      },
+      "beginning_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:beginning_music_disc"
+            }
+          ]
+        }
+      },
+      "castlemania_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:castlemania_music_disc"
+            }
+          ]
+        }
+      },
+      "castlemania2_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:castlemania2_music_disc"
+            }
+          ]
+        }
+      },
+      "death_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:death_music_disc"
+            }
+          ]
+        }
+      },
+      "executioner_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:executioner_music_disc"
+            }
+          ]
+        }
+      },
+      "hardcoreminecraft_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:hardcoreminecraft_music_disc"
+            }
+          ]
+        }
+      },
+      "invincible_music_disc": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "more_discs_rebelspark:invincible_music_disc"
+            }
+          ]
+        }
+      }
+    },
+  "requirements": [
+    [
+      "back_on_dash_music_disc",
+      "beginning_music_disc",
+      "castlemania_music_disc",
+      "castlemania2_music_disc",
+      "death_music_disc",
+      "executioner_music_disc",
+      "hardcoreminecraft_music_disc",
+      "invincible_music_disc"
+    ]
+  ]
+}

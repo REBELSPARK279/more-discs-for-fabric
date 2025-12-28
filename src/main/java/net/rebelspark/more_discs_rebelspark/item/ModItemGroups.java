@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
 
                         entries.add(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC);
+                        entries.add(ModItems.AERIE_MUSIC_DISC);
                         entries.add(ModItems.ALPHA_MUSIC_DISC);
                         entries.add(ModItems.ARIA_MATH_MUSIC_DISC);
                         entries.add(ModItems.BACK_ON_DASH_MUSIC_DISC);
@@ -36,31 +37,42 @@ public class ModItemGroups {
                         entries.add(ModItems.DOG_MUSIC_DISC);
                         entries.add(ModItems.DOOR_MUSIC_DISC);
                         entries.add(ModItems.DREITON_MUSIC_DISC);
+                        entries.add(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC);
+                        entries.add(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC);
                         entries.add(ModItems.DRY_HANDS_MUSIC_DISC);
                         entries.add(ModItems.EXCUSE_MUSIC_DISC);
                         entries.add(ModItems.EXECUTIONER_MUSIC_DISC);
                         entries.add(ModItems.EQUINOXE_MUSIC_DISC);
+                        entries.add(ModItems.FIREBUGS_MUSIC_DISC);
                         entries.add(ModItems.FLAKE_MUSIC_DISC);
+                        entries.add(ModItems.FLOATING_DREAM_MUSIC_DISC);
                         entries.add(ModItems.FLOATING_TREES_MUSIC_DISC);
                         entries.add(ModItems.HAGGSTROM_MUSIC_DISC);
                         entries.add(ModItems.HARDCOREMINECRAFT_MUSIC_DISC);
                         entries.add(ModItems.HAUNT_MUSKIE_MUSIC_DISC);
                         entries.add(ModItems.HEADBUG_MUSIC_DISC);
+                        entries.add(ModItems.INFINITE_AMETHYST_MUSIC_DISC);
                         entries.add(ModItems.INVINCIBLE_MUSIC_DISC);
                         entries.add(ModItems.KEY_MUSIC_DISC);
                         entries.add(ModItems.KI_MUSIC_DISC);
+                        entries.add(ModItems.LABYRINTHINE_MUSIC_DISC);
+                        entries.add(ModItems.LEFT_TO_BLOOM_MUSIC_DISC);
                         entries.add(ModItems.LIVING_MICE_MUSIC_DISC);
                         entries.add(ModItems.MICE_ON_VENUS_MUSIC_DISC);
                         entries.add(ModItems.MINECRAFT_MUSIC_DISC);
                         entries.add(ModItems.MOOG_CITY_MUSIC_DISC);
                         entries.add(ModItems.MOOG_CITY2_MUSIC_DISC);
                         entries.add(ModItems.MUTATION_MUSIC_DISC);
+                        entries.add(ModItems.ONE_MORE_DAY_MUSIC_DISC);
                         entries.add(ModItems.OXYGENE_MUSIC_DISC);
+                        entries.add(ModItems.STAND_TALL_MUSIC_DISC);
                         entries.add(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC);
                         entries.add(ModItems.SWEDEN_MUSIC_DISC);
                         entries.add(ModItems.TASWELL_MUSIC_DISC);
                         entries.add(ModItems.THE_END_MUSIC_DISC);
+                        entries.add(ModItems.WENDING_MUSIC_DISC);
                         entries.add(ModItems.WET_HANDS_MUSIC_DISC);
+
                         entries.add(ModItems.EMPTY_DISC_CORE);
 
                     }).build());

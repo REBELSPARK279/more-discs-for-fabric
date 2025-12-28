@@ -3,6 +3,9 @@
   "item.more_discs_rebelspark.a_familiar_room_music_disc": "Music Disc",
   "item.more_discs_rebelspark.a_familiar_room_music_disc.desc": "Aaron Cherof - A Familiar Room",
 
+  "item.more_discs_rebelspark.aerie_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.aerie_music_disc.desc": "Lena Raine - Aerie",
+
   "item.more_discs_rebelspark.alpha_music_disc": "Music Disc",
   "item.more_discs_rebelspark.alpha_music_disc.desc": "C418 - Alpha",
 
@@ -60,6 +63,12 @@
   "item.more_discs_rebelspark.dreiton_music_disc": "Music Disc",
   "item.more_discs_rebelspark.dreiton_music_disc.desc": "C418 - Dreiton",
 
+  "item.more_discs_rebelspark.droopy_likes_ricochet_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.droopy_likes_ricochet_music_disc.desc": "C418 - Droopy Likes Ricochet",
+
+  "item.more_discs_rebelspark.droopy_likes_your_face_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.droopy_likes_your_face_music_disc.desc": "C418 - Droopy Likes Your Face",
+
   "item.more_discs_rebelspark.dry_hands_music_disc": "Music Disc",
   "item.more_discs_rebelspark.dry_hands_music_disc.desc": "C418 - Dry Hands",
 
@@ -72,8 +81,14 @@
   "item.more_discs_rebelspark.equinoxe_music_disc": "Music Disc",
   "item.more_discs_rebelspark.equinoxe_music_disc.desc": "C418 - Équinoxe",
 
+  "item.more_discs_rebelspark.firebugs_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.firebugs_music_disc.desc": "C418 - Firebugs",
+
   "item.more_discs_rebelspark.flake_music_disc": "Music Disc",
   "item.more_discs_rebelspark.flake_music_disc.desc": "C418 - Flake",
+
+  "item.more_discs_rebelspark.floating_dream_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.floating_dream_music_disc.desc": "Kumi Tanioka - Floating Dream",
 
   "item.more_discs_rebelspark.floating_trees_music_disc": "Music Disc",
   "item.more_discs_rebelspark.floating_trees_music_disc.desc": "C418 - Floating Trees",
@@ -90,6 +105,9 @@
   "item.more_discs_rebelspark.headbug_music_disc": "Music Disc",
   "item.more_discs_rebelspark.headbug_music_disc.desc": "REBELSPARK279 - Headbug",
 
+  "item.more_discs_rebelspark.infinite_amethyst_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.infinite_amethyst_music_disc.desc": "Lena Raine - Infinite Amethyst",
+
   "item.more_discs_rebelspark.invincible_music_disc": "Music Disc",
   "item.more_discs_rebelspark.invincible_music_disc.desc": "DEAF KEV - Invincible",
 
@@ -98,6 +116,12 @@
 
   "item.more_discs_rebelspark.ki_music_disc": "Music Disc",
   "item.more_discs_rebelspark.ki_music_disc.desc": "C418 - Ki",
+
+  "item.more_discs_rebelspark.labyrinthine_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.labyrinthine_music_disc.desc": "Lena Raine - Labyrinthine",
+
+  "item.more_discs_rebelspark.left_to_bloom_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.left_to_bloom_music_disc.desc": "Lena Raine - Left to Bloom",
 
   "item.more_discs_rebelspark.living_mice_music_disc": "Music Disc",
   "item.more_discs_rebelspark.living_mice_music_disc.desc": "C418 - Living Mice",
@@ -117,8 +141,14 @@
   "item.more_discs_rebelspark.mutation_music_disc": "Music Disc",
   "item.more_discs_rebelspark.mutation_music_disc.desc": "C418 - Mutation",
 
+  "item.more_discs_rebelspark.one_more_day_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.one_more_day_music_disc.desc": "Lena Raine - One More Day",
+
   "item.more_discs_rebelspark.oxygene_music_disc": "Music Disc",
   "item.more_discs_rebelspark.oxygene_music_disc.desc": "C418 - Oxygène",
+
+  "item.more_discs_rebelspark.stand_tall_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.stand_tall_music_disc.desc": "Lena Raine - Stand Tall",
 
   "item.more_discs_rebelspark.subwoofer_lullaby_music_disc": "Music Disc",
   "item.more_discs_rebelspark.subwoofer_lullaby_music_disc.desc": "C418 - Subwoofer Lullaby",
@@ -131,6 +161,9 @@
 
   "item.more_discs_rebelspark.the_end_music_disc": "Music Disc",
   "item.more_discs_rebelspark.the_end_music_disc.desc": "C418 - The End",
+
+  "item.more_discs_rebelspark.wending_music_disc": "Music Disc",
+  "item.more_discs_rebelspark.wending_music_disc.desc": "Lena Raine - Wending",
 
   "item.more_discs_rebelspark.wet_hands_music_disc": "Music Disc",
   "item.more_discs_rebelspark.wet_hands_music_disc.desc": "C418 - Wet Hands",
@@ -175,7 +208,7 @@
 
   "tooltip.more_discs_rebelspark.colour_ex": "§00§11§22§33§44§55§66§77§88§99§aa§bb§cc§dd§ee§0§khi§r<k§lhi§r§mhi§r§nhi§r§ohi§rhi",
 
-  "tooltip.more_discs_rebelspark.common_disc": "§7Common Disc",
+  "tooltip.more_discs_rebelspark.common_disc": "§7Commons Disc",
   "tooltip.more_discs_rebelspark.uncommon_disc": "§2Uncommon Disc",
   "tooltip.more_discs_rebelspark.rare_disc": "§9§lRare Disc",
   "tooltip.more_discs_rebelspark.epic_disc": "§5§lEpic Disc",

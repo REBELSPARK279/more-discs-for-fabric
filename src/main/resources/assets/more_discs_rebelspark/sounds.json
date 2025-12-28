@@ -8,6 +8,15 @@
     ]
   },
 
+  "aerie": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:aerie",
+        "stream": true
+      }
+    ]
+  },
+
   "alpha": {
     "sounds": [
       {
@@ -179,6 +188,24 @@
     ]
   },
 
+  "droopy_likes_ricochet": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:droopy_likes_ricochet",
+        "stream": true
+      }
+    ]
+  },
+
+  "droopy_likes_your_face": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:droopy_likes_your_face",
+        "stream": true
+      }
+    ]
+  },
+
   "dry_hands": {
     "sounds": [
       {
@@ -215,10 +242,28 @@
     ]
   },
 
+  "firebugs": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:firebugs",
+        "stream": true
+      }
+    ]
+  },
+
   "flake": {
     "sounds": [
       {
         "name": "more_discs_rebelspark:flake",
+        "stream": true
+      }
+    ]
+  },
+
+  "floating_dream": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:floating_dream",
         "stream": true
       }
     ]
@@ -269,6 +314,15 @@
     ]
   },
 
+  "infinite_amethyst": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:infinite_amethyst",
+        "stream": true
+      }
+    ]
+  },
+
   "invincible": {
     "sounds": [
       {
@@ -291,6 +345,24 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:ki",
+        "stream": true
+      }
+    ]
+  },
+
+  "labyrinthine": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:labyrinthine",
+        "stream": true
+      }
+    ]
+  },
+
+  "left_to_bloom": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:left_to_bloom",
         "stream": true
       }
     ]
@@ -350,10 +422,28 @@
     ]
   },
 
+  "one_more_day": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:one_more_day",
+        "stream": true
+      }
+    ]
+  },
+
   "oxygene": {
     "sounds": [
       {
         "name": "more_discs_rebelspark:oxygene",
+        "stream": true
+      }
+    ]
+  },
+
+  "stand_tall": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:stand_tall",
         "stream": true
       }
     ]
@@ -390,6 +480,15 @@
     "sounds": [
       {
         "name": "more_discs_rebelspark:the_end",
+        "stream": true
+      }
+    ]
+  },
+
+  "wending": {
+    "sounds": [
+      {
+        "name": "more_discs_rebelspark:wending",
         "stream": true
       }
     ]

@@ -31,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EMPTY_DISC_CORE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.A_FAMILIAR_ROOM_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AERIE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALPHA_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARIA_MATH_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.BACK_ON_DASH_MUSIC_DISC, Models.GENERATED);
@@ -50,30 +51,48 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DOG_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DOOR_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DREITON_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.DRY_HANDS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EXCUSE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EXECUTIONER_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EQUINOXE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FIREBUGS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLAKE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FLOATING_DREAM_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.FLOATING_TREES_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAGGSTROM_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HARDCOREMINECRAFT_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAUNT_MUSKIE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.HEADBUG_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.INFINITE_AMETHYST_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.INVINCIBLE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.KEY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.KI_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LABYRINTHINE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEFT_TO_BLOOM_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIVING_MICE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MICE_ON_VENUS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MINECRAFT_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOOG_CITY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOOG_CITY2_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUTATION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ONE_MORE_DAY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.OXYGENE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STAND_TALL_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.SWEDEN_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.TASWELL_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.THE_END_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WENDING_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.WET_HANDS_MUSIC_DISC, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.COMMON_SCROLLER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNCOMMON_SCROLLER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RARE_SCROLLER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EPIC_SCROLLER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEGENDARY_SCROLLER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TRADER_SCROLLER, Models.GENERATED);
+
     }
 }

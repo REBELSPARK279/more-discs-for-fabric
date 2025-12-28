@@ -31,6 +31,7 @@ public class MoreDiscs implements ModInitializer {
 		ModGlobalLootTableModifiers.modifyLootTables();
 		ModVillagers.registerVillagers();
 
+
 		var common1price = 10;
 		var common2price = 9;
 		var common3price = 8;
@@ -75,6 +76,12 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.DREITON_MUSIC_DISC, 1), 10, 4, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common1price),
+					new ItemStack(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC, 1), 10, 4, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common1price),
+					new ItemStack(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC, 1), 10, 4, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common1price),
 					new ItemStack(ModItems.DRY_HANDS_MUSIC_DISC, 1), 10, 4, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common1price),
@@ -96,6 +103,7 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.SWEDEN_MUSIC_DISC, 1), 10, 4, 0.07f));
 
 			});
+
 		//2
 		TradeOfferHelper.registerVillagerOffers(ModVillagers.DISC_JOCKEY_KEY, 2, factories -> {
 			factories.add((entity, random) -> new TradeOffer(
@@ -104,6 +112,12 @@ public class MoreDiscs implements ModInitializer {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common2price),
 					new ItemStack(ModItems.DREITON_MUSIC_DISC, 1), 10, 8, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common2price),
+					new ItemStack(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC, 1), 10, 8, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common2price),
+					new ItemStack(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC, 1), 10, 8, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common2price),
 					new ItemStack(ModItems.DRY_HANDS_MUSIC_DISC, 1), 10, 8, 0.07f));
@@ -127,9 +141,6 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.SWEDEN_MUSIC_DISC, 1), 10, 8, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
-					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 10, 0.07f));
-			factories.add((entity, random) -> new TradeOffer(
-					new TradedItem(Items.EMERALD, uncommon2price),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 10, 10, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
@@ -142,10 +153,13 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.LIVING_MICE_MUSIC_DISC, 1), 10, 10, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
-					new ItemStack(ModItems.MOOG_CITY2_DISC_FRAGMENT, 1), 10, 10, 0.07f));
+					new ItemStack(ModItems.MOOG_CITY_MUSIC_DISC, 1), 10, 10, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon2price),
 					new ItemStack(ModItems.MUTATION_MUSIC_DISC, 1), 10, 10, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, uncommon2price),
+					new ItemStack(ModItems.WENDING_MUSIC_DISC, 1), 10, 10, 0.07f));
 		});
 		//3
 		TradeOfferHelper.registerVillagerOffers(ModVillagers.DISC_JOCKEY_KEY, 3, factories -> {
@@ -155,6 +169,12 @@ public class MoreDiscs implements ModInitializer {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common3price),
 					new ItemStack(ModItems.DREITON_MUSIC_DISC, 1), 10, 12, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common3price),
+					new ItemStack(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC, 1), 10, 12, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, common3price),
+					new ItemStack(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC, 1), 10, 12, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, common3price),
 					new ItemStack(ModItems.DRY_HANDS_MUSIC_DISC, 1), 10, 12, 0.07f));
@@ -178,9 +198,6 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.SWEDEN_MUSIC_DISC, 1), 10, 12, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon3price),
-					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 15, 0.07f));
-			factories.add((entity, random) -> new TradeOffer(
-					new TradedItem(Items.EMERALD, uncommon3price),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 10, 15, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon3price),
@@ -198,6 +215,12 @@ public class MoreDiscs implements ModInitializer {
 					new TradedItem(Items.EMERALD, uncommon3price),
 					new ItemStack(ModItems.MUTATION_MUSIC_DISC, 1), 10, 15, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, uncommon3price),
+					new ItemStack(ModItems.WENDING_MUSIC_DISC, 1), 10, 15, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare3price),
+					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
 					new ItemStack(ModItems.BEGINNING2_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
@@ -211,19 +234,22 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
-					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 18, 0.07f));
+					new ItemStack(ModItems.FLAKE_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
 					new ItemStack(ModItems.OXYGENE_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare3price),
+					new ItemStack(ModItems.STAND_TALL_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare3price),
+					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare3price),
 					new ItemStack(ModItems.WET_HANDS_MUSIC_DISC, 1), 10, 18, 0.07f));
 		});
 		//4
 		TradeOfferHelper.registerVillagerOffers(ModVillagers.DISC_JOCKEY_KEY, 4, factories -> {
-			factories.add((entity, random) -> new TradeOffer(
-					new TradedItem(Items.EMERALD, uncommon4price),
-					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 20, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, uncommon4price),
 					new ItemStack(ModItems.BLIND_SPOTS_MUSIC_DISC, 1), 10, 20, 0.07f));
@@ -243,6 +269,12 @@ public class MoreDiscs implements ModInitializer {
 					new TradedItem(Items.EMERALD, uncommon4price),
 					new ItemStack(ModItems.MUTATION_MUSIC_DISC, 1), 10, 20, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, uncommon4price),
+					new ItemStack(ModItems.WENDING_MUSIC_DISC, 1), 10, 20, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare4price),
+					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 20, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
 					new ItemStack(ModItems.BEGINNING2_MUSIC_DISC, 1), 10, 24, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
@@ -254,6 +286,12 @@ public class MoreDiscs implements ModInitializer {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 24, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare4price),
+					new ItemStack(ModItems.FLAKE_MUSIC_DISC, 1), 10, 18, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare4price),
+					new ItemStack(ModItems.STAND_TALL_MUSIC_DISC, 1), 10, 18, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare4price),
 					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 24, 0.07f));
@@ -277,6 +315,9 @@ public class MoreDiscs implements ModInitializer {
 		TradeOfferHelper.registerVillagerOffers(ModVillagers.DISC_JOCKEY_KEY, 5, factories -> {
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
+					new ItemStack(ModItems.ARIA_MATH_MUSIC_DISC, 1), 10, 30, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.BEGINNING2_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
@@ -289,10 +330,16 @@ public class MoreDiscs implements ModInitializer {
 					new ItemStack(ModItems.CONCRETE_HALLS_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
-					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 30, 0.07f));
+					new ItemStack(ModItems.FLAKE_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.OXYGENE_MUSIC_DISC, 1), 10, 30, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare5price),
+					new ItemStack(ModItems.STAND_TALL_MUSIC_DISC, 1), 10, 30, 0.07f));
+			factories.add((entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, rare5price),
+					new ItemStack(ModItems.SUBWOOFER_LULLABY_MUSIC_DISC, 1), 10, 30, 0.07f));
 			factories.add((entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, rare5price),
 					new ItemStack(ModItems.WET_HANDS_MUSIC_DISC, 1), 10, 30, 0.07f));
@@ -373,6 +420,9 @@ public class MoreDiscs implements ModInitializer {
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "mutation"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 14),
 					new ItemStack(ModItems.MUTATION_MUSIC_DISC, 1), 3, 4, 0.25f));
+			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "wending"), (entity, random) -> new TradeOffer(
+					new TradedItem(Items.EMERALD, 14),
+					new ItemStack(ModItems.WENDING_MUSIC_DISC, 1), 3, 4, 0.25f));
 
 			factories.addAll(Identifier.of(MoreDiscs.MOD_ID, "aria_math"), (entity, random) -> new TradeOffer(
 					new TradedItem(Items.EMERALD, 18),

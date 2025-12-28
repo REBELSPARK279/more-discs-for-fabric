@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_empty_disc_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "more_discs_rebelspark:empty_disc_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "more_discs_rebelspark:droopy_likes_ricochet_music_disc"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_empty_disc_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more_discs_rebelspark:droopy_likes_ricochet_music_disc"
+    ]
+  }
+}

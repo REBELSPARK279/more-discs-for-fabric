@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:uncommon_scroller"
+    },
+    "title": "Uncommon Unison",
+    "description": "Get every uncommon disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/uncommon",
+  "criteria": {
+    "uncommon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "more_discs_rebelspark:blind_spots_music_disc"},
+          {"items": "more_discs_rebelspark:door_music_disc"},
+          {"items": "more_discs_rebelspark:equinoxe_music_disc"},
+          {"items": "more_discs_rebelspark:living_mice_music_disc"},
+          {"items": "more_discs_rebelspark:moog_city_music_disc"},
+          {"items": "more_discs_rebelspark:mutation_music_disc"},
+          {"items": "more_discs_rebelspark:wending_music_disc"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "uncommon"
+    ]
+  ]
+}

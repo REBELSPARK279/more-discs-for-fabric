@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
+import net.minecraft.registry.tag.ItemTags;
 import net.rebelspark.more_discs_rebelspark.item.ModItems;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -72,6 +73,26 @@ ISOLATE
                         .input('F', Items.FLINT)
                         .input('C', ModItems.EMPTY_DISC_CORE)
                         .input('N', Items.NOTE_BLOCK)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC)
+                        .pattern("AFA")
+                        .pattern("FCF")
+                        .pattern("AFA")
+                        .input('F', Items.FLINT)
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .input('A', Items.SLIME_BALL)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC)
+                        .pattern(" A ")
+                        .pattern("FCF")
+                        .pattern(" F ")
+                        .input('F', Items.FLINT)
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .input('A', ItemTags.SKULLS)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
 
@@ -205,6 +226,16 @@ ISOLATE
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.MISC, ModItems.WENDING_MUSIC_DISC)
+                        .pattern("FVF")
+                        .pattern("VCV")
+                        .pattern("FVF")
+                        .input('V', Items.VINE)
+                        .input('F', Items.FLINT)
+                        .input('C', ModItems.EMPTY_DISC_CORE)
+                        .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
+                        .offerTo(exporter);
+
 
 
                 createShaped(RecipeCategory.MISC, ModItems.DOG_MUSIC_DISC)
@@ -242,6 +273,8 @@ ISOLATE
                         .input('C', ModItems.EMPTY_DISC_CORE)
                         .criterion(hasItem(ModItems.EMPTY_DISC_CORE), conditionsFromItem(ModItems.EMPTY_DISC_CORE))
                         .offerTo(exporter);
+
+
 
 
 

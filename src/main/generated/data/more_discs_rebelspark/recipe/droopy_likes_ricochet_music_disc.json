@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:slime_ball",
+    "C": "more_discs_rebelspark:empty_disc_core",
+    "F": "minecraft:flint"
+  },
+  "pattern": [
+    "AFA",
+    "FCF",
+    "AFA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_discs_rebelspark:droopy_likes_ricochet_music_disc"
+  }
+}

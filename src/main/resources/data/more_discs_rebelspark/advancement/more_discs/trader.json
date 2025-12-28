@@ -1,0 +1,337 @@
+{
+  "display": {
+    "icon": {
+      "id": "more_discs_rebelspark:castlemania_music_disc"
+    },
+    "title": "A Sound Investment",
+    "description": "Buy a disc from a trader",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "dead_voxel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:dead_voxel_music_disc"
+        }
+      }
+    },
+    "dreiton": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:dreiton_music_disc"
+        }
+      }
+    },
+    "dry_hands": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:dry_hands_music_disc"
+        }
+      }
+    },
+    "floating_trees": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:floating_trees_music_disc"
+        }
+      }
+    },
+    "haunt_muskie": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:haunt_muskie_music_disc"
+        }
+      }
+    },
+    "headbug": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:headbug_music_disc"
+        }
+      }
+    },
+    "ki": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:ki_music_disc"
+        }
+      }
+    },
+    "sweden": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:sweden_music_disc"
+        }
+      }
+    },
+    "blind_spots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:blind_spots_music_disc"
+        }
+      }
+    },
+    "door": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:door_music_disc"
+        }
+      }
+    },
+    "excuse": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:excuse_music_disc"
+        }
+      }
+    },
+    "equinoxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:equinoxe_music_disc"
+        }
+      }
+    },
+    "living_mice": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:living_mice_music_disc"
+        }
+      }
+    },
+    "moog_city": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:moog_city_music_disc"
+        }
+      }
+    },
+    "mutation": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:mutation_music_disc"
+        }
+      }
+    },
+    "aria_math": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:aria_math_music_disc"
+        }
+      }
+    },
+    "oxygene": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:oxygene_music_disc"
+        }
+      }
+    },
+    "castlemania2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:castlemania2_music_disc"
+        }
+      }
+    },
+    "hardcoreminecraft": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:hardcoreminecraft_music_disc"
+        }
+      }
+    },
+    "beginning": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:beginning_music_disc"
+        }
+      }
+    },
+    "castlemania": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:castlemania_music_disc"
+        }
+      }
+    },
+    "invincible": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:invincible_music_disc"
+        }
+      }
+    },
+    "beginning2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:beginning2_music_disc"
+        }
+      }
+    },
+    "chris": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:chris_music_disc"
+        }
+      }
+    },
+    "clark": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:clark_music_disc"
+        }
+      }
+    },
+    "concrete_halls": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:concrete_halls_music_disc"
+        }
+      }
+    },
+    "subwoofer_lullaby": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:subwoofer_lullaby_music_disc"
+        }
+      }
+    },
+    "wet_hands": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:wet_hands_music_disc"
+        }
+      }
+    },
+    "back_on_dash": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:back_on_dash_music_disc"
+        }
+      }
+    },
+    "death": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:death_music_disc"
+        }
+      }
+    },
+    "executioner": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:executioner_music_disc"
+        }
+      }
+    },
+    "alpha": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:alpha_music_disc"
+        }
+      }
+    },
+    "ballad_of_the_cats": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:ballad_of_the_cats_music_disc"
+        }
+      }
+    },
+    "biome_fest": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:biome_fest_music_disc"
+        }
+      }
+    },
+    "haggstrom": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "more_discs_rebelspark:haggstrom_music_disc"
+        }
+      }
+    }
+  },
+
+
+  "requirements": [
+    [
+      "alpha",
+      "aria_math",
+      "back_on_dash",
+      "ballad_of_the_cats",
+      "beginning",
+      "beginning2",
+      "biome_fest",
+      "blind_spots",
+      "castlemania",
+      "castlemania2",
+      "chris",
+      "clark",
+      "concrete_halls",
+      "dead_voxel",
+      "death",
+      "dreiton",
+      "door",
+      "dry_hands",
+      "excuse",
+      "executioner",
+      "equinoxe",
+      "floating_trees",
+      "haggstrom",
+      "haunt_muskie",
+      "headbug",
+      "hardcoreminecraft",
+      "invincible",
+      "ki",
+      "living_mice",
+      "moog_city",
+      "mutation",
+      "oxygene",
+      "subwoofer_lullaby",
+      "sweden",
+      "wet_hands"
+    ]
+  ]
+}

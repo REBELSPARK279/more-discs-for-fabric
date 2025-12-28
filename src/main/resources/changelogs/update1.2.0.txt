@@ -1,0 +1,39 @@
+Update 1.2.0 for fabric 1.21.5+ changelog
+
+--NEW DISCS--
+
+Added 11 discs
+
+COMMON DISCS
+Droopy Likes Ricochet
+Droopy Likes Your Face
+
+UNCOMMON DISCS
+Wending
+
+RARE DISCS
+Stand Tall
+
+EPIC DISCS
+Aerie
+Firebugs
+Floating Dream
+One More Day
+
+LEGENDARY DISCS
+Infinite Amethyst
+Labyrinthine
+Left to Bloom
+
+Added advancements!
+Achieve them all by getting discs of different rarities, finding and crafting disc fragments, and more!
+
+--DROP CHANCE CHANGES--
+
+Moog City 2 from iron golem: 0.5% --> 0.05%
+
+--BUGFIXES--
+
+Fixed disc jockeys trading moog city 2 disc fragments instead of moog city at apprentice level
+Fixed Danny Music Disc not being spawnable in end cities
+

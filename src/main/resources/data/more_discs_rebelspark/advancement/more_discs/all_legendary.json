@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:legendary_scroller"
+    },
+    "title": "Legendary Lengths",
+    "description": "Get every legendary disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/legendary",
+  "criteria": {
+    "legendary":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "more_discs_rebelspark:danny_music_disc"},
+          {"items": "more_discs_rebelspark:dog_music_disc"},
+          {"items": "more_discs_rebelspark:infinite_amethyst_music_disc"},
+          {"items": "more_discs_rebelspark:labyrinthine_music_disc"},
+          {"items": "more_discs_rebelspark:left_to_bloom_music_disc"},
+          {"items": "more_discs_rebelspark:mice_on_venus_music_disc"},
+          {"items": "more_discs_rebelspark:minecraft_music_disc"},
+          {"items": "more_discs_rebelspark:moog_city2_music_disc"},
+          {"items": "more_discs_rebelspark:taswell_music_disc"},
+          {"items": "more_discs_rebelspark:the_end_music_disc"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "legendary"
+    ]
+  ]
+}

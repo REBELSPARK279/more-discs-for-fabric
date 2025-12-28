@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:common_scroller"
+    },
+    "title": "Common Collector",
+    "description": "Get every common disc",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/common",
+  "criteria": {
+    "commons": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "more_discs_rebelspark:dead_voxel_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:dreiton_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:droopy_likes_ricochet_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:droopy_likes_your_face_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:dry_hands_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:excuse_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:floating_trees_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:haunt_muskie_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:headbug_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:key_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:ki_music_disc"
+          },
+          {
+            "items": "more_discs_rebelspark:sweden_music_disc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "commons"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

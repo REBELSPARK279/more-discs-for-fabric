@@ -3,13 +3,14 @@
 	"id": "more_discs_rebelspark",
 	"version": "${version}",
 	"name": "More Discs For Fabric 1.21",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds dozens of new discs to your Minecraft adventure. These discs appear all throughout the world in different chests, mob drops, and more! Be sure to go back to the mod page for a guide showing where each disc is found.",
 	"authors": [
 		"REBELSPARK279"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/REBELSPARK279/more-discs-for-fabric",
+		"issues": "https://github.com/REBELSPARK279/more-discs-for-fabric/issues"
 	},
 	"license": "GNU General Public License v3.0",
 	"icon": "assets/more_discs_rebelspark/icon.png",

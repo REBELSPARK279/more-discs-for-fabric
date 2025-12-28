@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:living_mice_music_disc"
+    },
+    "title": "Uncommon Disc",
+    "description": "Discover an uncommon disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "blind_spots_music_disc":         { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:blind_spots_music_disc" } ] } },
+    "door_music_disc":                { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:door_music_disc" } ] } },
+    "equinoxe_music_disc":            { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:equinoxe_music_disc" } ] } },
+    "living_mice_music_disc":         { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:living_mice_music_disc" } ] } },
+    "moog_city_music_disc":           { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:moog_city_music_disc" } ] } },
+    "mutation_music_disc":            { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:mutation_music_disc" } ] } },
+    "wending_music_disc":            { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:wending_music_disc" } ] } }
+  },
+  "requirements": [
+    [
+      "blind_spots_music_disc",
+      "door_music_disc",
+      "equinoxe_music_disc",
+      "living_mice_music_disc",
+      "moog_city_music_disc",
+      "mutation_music_disc",
+      "wending_music_disc"
+    ]
+  ]
+}

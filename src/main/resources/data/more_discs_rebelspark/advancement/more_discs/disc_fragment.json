@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:minecraft_disc_fragment"
+    },
+    "title": "A Broken Past",
+    "description": "Find a disc fragment",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "minecraft:disc_fragment_5" }] }
+    },
+    "dog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "more_discs_rebelspark:dog_disc_fragment" }] }
+    },
+    "minecraft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items":  [{ "items": "more_discs_rebelspark:minecraft_disc_fragment"}]}
+    },
+    "moog_city2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "more_discs_rebelspark:moog_city2_disc_fragment" }] }
+    },
+    "the_end": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": "more_discs_rebelspark:the_end_disc_fragment" }] }
+    }
+  },
+  "requirements": [
+    [
+      "5",
+      "dog",
+      "minecraft",
+      "moog_city2",
+      "the_end"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -21,6 +21,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 //COMMON
 
                 .add(ModItems.DEAD_VOXEL_MUSIC_DISC)
+                .add(ModItems.DREITON_MUSIC_DISC)
+                .add(ModItems.DROOPY_LIKES_RICOCHET_MUSIC_DISC)
+                .add(ModItems.DROOPY_LIKES_YOUR_FACE_MUSIC_DISC)
                 .add(ModItems.DRY_HANDS_MUSIC_DISC)
                 .add(ModItems.EXCUSE_MUSIC_DISC)
                 .add(ModItems.FLOATING_TREES_MUSIC_DISC)

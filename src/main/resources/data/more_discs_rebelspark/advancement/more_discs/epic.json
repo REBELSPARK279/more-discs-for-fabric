@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "more_discs_rebelspark:floating_dream_music_disc"
+    },
+    "title": "Epic Echos",
+    "description": "Discover an epic disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_discs_rebelspark:more_discs/root",
+  "criteria": {
+    "a_familiar_room_music_disc":{"trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:a_familiar_room_music_disc" } ] } },
+    "aerie_music_disc":{"trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:aerie_music_disc" } ] } },
+    "alpha_music_disc":{"trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:alpha_music_disc" } ] } },
+    "ballad_of_the_cats_music_disc":{ "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:ballad_of_the_cats_music_disc" } ] } },
+    "biome_fest_music_disc":          { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:biome_fest_music_disc" } ] } },
+    "firebugs_music_disc":          { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:firebugs_music_disc" } ] } },
+    "floating_dream_music_disc":          { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:floating_dream_music_disc" } ] } },
+    "haggstrom_music_disc":            { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:haggstrom_music_disc" } ] } },
+    "one_more_day_music_disc":            { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "items": "more_discs_rebelspark:one_more_day_music_disc" } ] } }
+  },
+  "requirements": [
+    [
+      "a_familiar_room_music_disc",
+      "aerie_music_disc",
+      "alpha_music_disc",
+      "ballad_of_the_cats_music_disc",
+      "biome_fest_music_disc",
+      "firebugs_music_disc",
+      "floating_dream_music_disc",
+      "haggstrom_music_disc",
+      "one_more_day_music_disc"
+    ]
+  ]
+}
