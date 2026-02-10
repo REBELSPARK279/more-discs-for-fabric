@@ -1,0 +1,4 @@
+Update 1.2.0bALPHA for fabric 1.21.11
+
+Fixed villager trades and disabled wandering trader trades to fix crashes on version 1.21.11
+Wandering trader fix soon
